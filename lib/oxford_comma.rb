@@ -7,7 +7,7 @@ def oxford_comma(array)
   else
     array.each.collect do |name|
       if name = array[-1]
-        array[-1] = " and "
+        array[-1] = " and #{name}"
       end
     end
     array.join(", ")
