@@ -6,5 +6,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif
     array.size == 3
+    array.each do |name|
+      if 
   end
 end
