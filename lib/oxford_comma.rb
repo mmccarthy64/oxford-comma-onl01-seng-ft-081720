@@ -5,5 +5,7 @@ def oxford_comma(array)
     array.size == 2
     array.join(" and ")
   else
-    
+    array.each do |name|
+      if array.size == array[-1]
+        
 end
