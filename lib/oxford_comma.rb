@@ -7,6 +7,7 @@ def oxford_comma(array)
   elsif
     array.size == 3
     array.each do |name|
-      if name = 
+      if name = array[-1]
+        
   end
 end
