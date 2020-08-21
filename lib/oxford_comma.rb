@@ -4,8 +4,7 @@ def oxford_comma(array)
   elsif
     array.size == 2
     array.join(" and ")
-  elsif
-    array.size == 3
+  else
     array.each do |name|
       if name = array[-1]
         array[-1] = " and " << name
