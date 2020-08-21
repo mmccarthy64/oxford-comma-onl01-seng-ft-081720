@@ -9,6 +9,6 @@ def oxford_comma(array)
       if name == array[-1]
         array[-1] = " and " << name
       end
-    end
     array.join(",")
+  end
 end
